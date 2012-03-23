@@ -15,7 +15,7 @@ import java.util.Iterator;
  * This java program is used to read the data from a Excel file and display them
  * on the console output.
  *
- * @author dhanago
+ * @author arkadiy
  */
 public class SsekXLSParser {
 
@@ -35,7 +35,7 @@ public class SsekXLSParser {
         InputStream inputStream = null;
 
         try {
-            inputStream = new FileInputStream(excelPath);
+            inputStream = new FileInputStream(excelPath1);
         } catch (FileNotFoundException e) {
             System.out.println("File not found in the specified path.");
             e.printStackTrace();
