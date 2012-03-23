@@ -28,14 +28,14 @@ public class SsekXLSParser {
     /**
      * This method is used to display the Excel content to command line.
      *
-     * @param xlsPath
+     * @param excelPath
      */
     @SuppressWarnings("unchecked")
-    public void displayFromExcel(String xlsPath) {
+    public void displayFromExcel(String excelPath) {
         InputStream inputStream = null;
 
         try {
-            inputStream = new FileInputStream(xlsPath);
+            inputStream = new FileInputStream(excelPath);
         } catch (FileNotFoundException e) {
             System.out.println("File not found in the specified path.");
             e.printStackTrace();
