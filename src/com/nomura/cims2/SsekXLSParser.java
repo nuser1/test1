@@ -87,6 +87,10 @@ public class SsekXLSParser {
                             break;
                         }
 
+                        case Cell.CELL_TYPE_FORMULA: {
+                            // do whatever
+                        }
+
                         default: {
 
                             // types other than String and Numeric.
